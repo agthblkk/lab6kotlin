@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputEta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ККД ηн (наприклад, 0.92)" />
+
+    <EditText
+        android:id="@+id/inputCosPhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="cos φ (наприклад, 0.9)" />
+
+    <EditText
+        android:id="@+id/inputVoltage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Напруга Uн, кВ (наприклад, 0.38)" />
+
+    <EditText
+        android:id="@+id/inputCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Кількість ЕП n (наприклад, 20)" />
+
+    <EditText
+        android:id="@+id/inputNominalPower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Номінальна потужність Pн, кВт (наприклад, 20)" />
+
+    <EditText
+        android:id="@+id/inputUsageCoeff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Коефіцієнт використання КВ (наприклад, 0.15)" />
+
+    <EditText
+        android:id="@+id/inputReactiveCoeff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="tgφ (наприклад, 1.33)" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Обчислити" />
+
+    <TextView
+        android:id="@+id/resultCurrent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/resultActivePower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/resultReactivePower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/resultFullPower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+</LinearLayout>
